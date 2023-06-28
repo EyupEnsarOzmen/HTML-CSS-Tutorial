@@ -1,0 +1,39 @@
+body {
+  background-color: lemonchiffon;
+}
+
+#bayram {
+  width: 150px;
+  height: 150px;
+  margin: 90px 950px 10px 740px;
+}
+
+#site {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+  border: 4px double #000;
+}
+#hadis1 {
+  border-top: solid #000;
+  border-bottom: solid #000;
+}
+#hadis2 {
+  border-top: solid #000;
+  border-bottom: solid #000;
+}
+#hadis3 {
+  border-top: solid #000;
+  border-bottom: solid #000;
+}
+#hadis4 {
+  border-top: solid #000;
+  border-bottom: solid #000;
+}
+#hadis5 {
+  border-top: solid #000;
+  border-bottom: solid #000;
+}
+#hadis6 {
+  border-top: solid #000;
+  border-bottom: solid #000;
+}
