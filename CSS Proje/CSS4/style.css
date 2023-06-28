@@ -1,6 +1,28 @@
 body {
   background-color: lemonchiffon;
 }
+#fotoğraflar {
+  margin: -35px 250px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.on {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkgoldenrod;
+  text-decoration: none;
+}
+#adresler {
+  text-align: right;
+  margin: 10px 250px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.two {
+  color: black;
+  text-decoration: none;
+}
 
 #bayram {
   width: 150px;
@@ -9,31 +31,39 @@ body {
 }
 
 #site {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Courier New", Courier, monospace;
   font-size: large;
   border: 4px double #000;
 }
-#hadis1 {
-  border-top: solid #000;
-  border-bottom: solid #000;
+.hadis1 {
+  color: black;
+  background-color: rgb(11, 138, 43);
+  width: 450px;
+  margin: 10px;
 }
-#hadis2 {
-  border-top: solid #000;
-  border-bottom: solid #000;
+.hadis2 {
+  background-color: rgb(11, 138, 43);
+  width: 450px;
+  margin: 10px;
 }
-#hadis3 {
-  border-top: solid #000;
-  border-bottom: solid #000;
+.hadis3 {
+  background-color: rgb(11, 138, 43);
+  text-align: center;
+  width: 450px;
+  margin: -235px 740px 250px;
 }
-#hadis4 {
-  border-top: solid #000;
-  border-bottom: solid #000;
+.hadis4 {
+  background-color: rgb(11, 138, 43);
+  width: 450px;
+  margin: -232px 740px 250px;
 }
-#hadis5 {
-  border-top: solid #000;
-  border-bottom: solid #000;
+.hadis5 {
+  background-color: rgb(11, 138, 43);
+  width: 450px;
+  margin: -447px 1435px 250px;
 }
-#hadis6 {
-  border-top: solid #000;
-  border-bottom: solid #000;
+.hadis6 {
+  background-color: rgb(11, 138, 43);
+  width: 450px;
+  margin: -230px 1435px 250px;
 }
