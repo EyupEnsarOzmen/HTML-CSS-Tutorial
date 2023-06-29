@@ -1,0 +1,22 @@
+#üst {
+  background-color: black;
+  width: 1950px;
+  height: 150px;
+  margin: -10px;
+}
+body {
+  background-color: darkgray;
+}
+
+#menü {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: -90px 1450px;
+  color: red;
+}
+#MENÜ {
+  text-decoration: none;
+}
+#alt {
+  font-size: 80px;
+  margin: 250px 700px;
+}
