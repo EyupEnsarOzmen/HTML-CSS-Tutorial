@@ -1,7 +1,7 @@
 #üst {
   background-color: black;
   height: 150px;
-  width: 10000px;
+  width: 1905px;
   margin: -10px;
 }
 .logo {
@@ -14,7 +14,7 @@ a:hover {
 }
 
 #anasayfa {
-  margin: -90px 1235px;
+  margin: -90px 1272px;
 }
 .anasayfa {
   color: darkgoldenrod;
@@ -42,10 +42,10 @@ a:hover {
   text-decoration: none;
 }
 #sayfa {
-  height: 10000px;
+  height: 2100px;
   background-color: rgb(223, 162, 8);
 }
-.foto {
+#foto {
   height: 290px;
   margin: 100px 180px;
 }
@@ -67,4 +67,25 @@ a:hover {
 }
 #video4 {
   margin: 100px;
+}
+#foto1 {
+  margin: 100px;
+}
+#foto2 {
+  margin: 100px 70px;
+}
+#foto3 {
+  margin: 100px;
+}
+#foto4 {
+  margin: 100px;
+}
+#insta {
+  font-size: 80px;
+  margin: 230px 750px;
+  margin-bottom: 180px;
+  color: black;
+}
+.insta {
+  text-decoration: none;
 }
