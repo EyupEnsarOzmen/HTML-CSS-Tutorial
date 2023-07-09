@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formlar</title>
+  </head>
+  <body>
+    <h1>FORMLAR</h1>
+    <form action="kaydet.php">
+      <label class="label" for="ad">Adınız</label>
+      <!-- label ustte oldugu icin isim giriniz kutusunun soluna yazar
+             alta koysak sagına yazar kutunun ustune koymak icin labelin yanına br koyarız-->
+      <input
+        type="text"
+        class="giriş"
+        id="ad"
+        name="adi"
+        value=""
+        maxlength="20"
+        placeholder="isim giriniz"
+      /><br />
+      <!-- labeldeki for ve inputtaki id aynı oldugunda 
+        Adınız yazısına basınca kutu aktif olur birbiine baglanır-->
+      <label class="label" for="sifre">sifreniz</label>
+      <input
+        type="password"
+        id="sifre"
+        class="giriş"
+        name="sifre"
+        value=""
+        required=""
+      /><br />
+      <!-- name ve value sudur value girilen deger name de servere name deki isimle gider adam derki sifre icinde girilen ver 3445 var mesela-->
+      <!-- required bos bırkılamaz demek uyarı verir-->
+      <!-- for id aynı olması diğerlerinde gerek yok name for mesela-->
+      <label class="label" for="email">e mail</label>
+      <input
+        type="email"
+        class="giriş"
+        id="email"
+        name="email"
+        value=""
+      /><br />
+      <label class="label" for="sayi">yasınız</label>
+      <input
+        type="number"
+        class="giriş"
+        id="sayi"
+        name="yas"
+        value=""
+        max="100"
+        min="0"
+      />
+      <!-- artırma aksiltem cıkar yada rakam girebilirz metin girilmez
+        100 den fazla 0 dan az olamaz girilir ama submit yapınca kabul etmez-->
+      <br />
+      <label class="label" for="adres">Adres</label>
+      <textarea name="text-alanı" id="adres" rows="10"></textarea> <br />
+
+      <button class="btn" type="submit">
+        <i class="far fa-save"></i>Gönder
+      </button>
+      <button class="btn" type="reset">
+        <i class="fas fa-trash-alt"></i>Temizle
+      </button>
+    </form>
+  </body>
+</html>
