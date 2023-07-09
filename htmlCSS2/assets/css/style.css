@@ -25,6 +25,6 @@ tr:hover {
   background-color: gray;
 }
 tr:nth-child(even) {
-  /* cift sayılardaki tr leri stillendir*/
+  /* cift sayılardaki tr leri stillendir.*/
   background-color: aqua;
 }
